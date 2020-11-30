@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { ChakraProvider, extendTheme } from '@chakra-ui/react';
 
 // components
+import Course from './components/course';
 import Home from './components/home';
 // theme
 import customTheme from './styles/customTheme';
@@ -14,6 +15,7 @@ function App() {
       <Router>
         <div className="App">
           <Switch>
+            <Route path="/course/:courseId" component={Course} />
             <Route path="/" exact component={Home} />
           </Switch>
         </div>
