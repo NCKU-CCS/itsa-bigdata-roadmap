@@ -50,6 +50,7 @@ const HomePageContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 30px;
 `;
 
 const MapContainer = styled.div`
