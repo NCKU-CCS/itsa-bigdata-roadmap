@@ -19,7 +19,9 @@ function Home() {
             top={course.top}
             left={course.left}
             color={course.color}
-            onClick={() => { history.push(`/course/${course.id}`); }}
+            onClick={() => {
+              history.push(`/course/${course.id}`);
+            }}
           />
         ))}
       </MapContainer>
