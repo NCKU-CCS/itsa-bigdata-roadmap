@@ -20,25 +20,26 @@ export default Info;
 
 const InfoContainer = styled.div`
   display: flex;
+  width:95vw;
   flex-direction: column;
-  width: 100vw;
   background-color: white;
-  padding-left: 1vw;
+  margin-left: 1.25rem;
 `;
 
 const CourseName = styled.h1`
   display: block;
   font-weight: bold;
-  letter-spacing: 3px;
-  font-size: 3rem;
+  letter-spacing: 1px;
+  font-size: 2rem;
+  margin: 1.5rem 0;
 `;
 
 const Information = styled.p`
   display: block;
   width: 70%;
   letter-spacing: 1px;
-  border-left: 10px solid #5e6179;
-  padding: 0 1vw;
-  font-size: 1rem;
-  margin: 0 0 1vh 0;
+  border-left: 1.5rem solid #6F7E98;
+  padding-left: 1rem;
+  margin-bottom: 3rem;
+  font-size: 1.25rem;
 `;
