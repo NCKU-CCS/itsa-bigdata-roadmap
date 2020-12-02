@@ -5,6 +5,8 @@ const courseEndpoints = [
     top: 203,
     left: 8,
     color: ' #9CD07D',
+    tooltip:
+      '課程簡介課程簡介課程簡介課程簡介課程簡介課程簡介課程簡介課程簡介課程簡介課程簡介',
   },
   {
     id: 'programLanguage',
@@ -12,6 +14,8 @@ const courseEndpoints = [
     top: 327,
     left: 8,
     color: ' #C0A2B8',
+    tooltip:
+      '課程簡介課程簡介課程簡介課程簡介課程簡介課程簡介課程簡介課程簡介課程簡介課程簡介',
   },
   {
     id: 'cloudComputing',
@@ -19,6 +23,8 @@ const courseEndpoints = [
     top: 119,
     left: 1330,
     color: ' #6f7e98',
+    tooltip:
+      '課程簡介課程簡介課程簡介課程簡介課程簡介課程簡介課程簡介課程簡介課程簡介課程簡介',
   },
   {
     id: 'NLP',
@@ -26,6 +32,8 @@ const courseEndpoints = [
     top: 193,
     left: 1330,
     color: ' #6f7e98',
+    tooltip:
+      '課程簡介課程簡介課程簡介課程簡介課程簡介課程簡介課程簡介課程簡介課程簡介課程簡介',
   },
   {
     id: 'textMining',
@@ -33,6 +41,8 @@ const courseEndpoints = [
     top: 258,
     left: 1330,
     color: ' #6f7e98',
+    tooltip:
+      '課程簡介課程簡介課程簡介課程簡介課程簡介課程簡介課程簡介課程簡介課程簡介課程簡介',
   },
   {
     id: 'imageAnalysis',
@@ -40,6 +50,8 @@ const courseEndpoints = [
     top: 327,
     left: 1330,
     color: ' #6f7e98',
+    tooltip:
+      '課程簡介課程簡介課程簡介課程簡介課程簡介課程簡介課程簡介課程簡介課程簡介課程簡介',
   },
   {
     id: 'speechRecognition',
@@ -47,6 +59,8 @@ const courseEndpoints = [
     top: 402,
     left: 1330,
     color: ' #6f7e98',
+    tooltip:
+      '課程簡介課程簡介課程簡介課程簡介課程簡介課程簡介課程簡介課程簡介課程簡介課程簡介',
   },
   {
     id: 'socialNetworkAnalysis',
@@ -54,6 +68,8 @@ const courseEndpoints = [
     top: 486,
     left: 1330,
     color: ' #6f7e98',
+    tooltip:
+      '課程簡介課程簡介課程簡介課程簡介課程簡介課程簡介課程簡介課程簡介課程簡介課程簡介',
   },
 ];
 
