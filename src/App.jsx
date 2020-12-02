@@ -5,6 +5,7 @@ import { ChakraProvider, extendTheme } from '@chakra-ui/react';
 // components
 import Course from './components/course';
 import Home from './components/home';
+import Nav from './components/nav';
 // theme
 import customTheme from './styles/customTheme';
 
@@ -12,6 +13,7 @@ function App() {
   const theme = extendTheme(customTheme);
   return (
     <ChakraProvider resetCSS theme={theme}>
+      <Nav />
       <Router>
         <div className="App">
           <Switch>
