@@ -1,6 +1,13 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
 import styled from '@emotion/styled';
+import {
+  Popover,
+  PopoverBody,
+  PopoverContent,
+  PopoverHeader,
+  PopoverTrigger,
+} from '@chakra-ui/react';
 
 // constant
 import { graphScale } from '../../constants';
@@ -15,28 +22,68 @@ function Home() {
     <HomePageContainer scale={graphScale}>
       <MapContainer src={courseMap}>
         {courseNodes.map((course) => (
-          <CoursePoint
-            key={course.id}
-            top={course.top}
-            left={course.left}
-            color={course.color}
-            onClick={() => {
-              history.push(`/course/${course.id}`);
-            }}
-          />
+          <Popover key={course.id} trigger="hover">
+            <PopoverTrigger>
+              <CoursePoint
+                top={course.top}
+                left={course.left}
+                color={course.color}
+                onClick={() => {
+                  history.push(`/course/${course.id}`);
+                }}
+              />
+            </PopoverTrigger>
+            <PopoverContent
+              m="30px 0 10px 0"
+              bg="white"
+              border="solid 2px"
+              borderColor={course.color}
+              borderRadius="10px"
+            >
+              <PopoverHeader
+                color="#2f2f2f"
+                fontSize="16px"
+                fontWeight="600"
+                letterSpacing="2px"
+              >
+                {course.text}
+              </PopoverHeader>
+              <PopoverBody>{course.tooltip}</PopoverBody>
+            </PopoverContent>
+          </Popover>
         ))}
         {courseEndpoints.map((course) => (
-          <CourseEndpoint
-            key={course.id}
-            top={course.top}
-            left={course.left}
-            color={course.color}
-            onClick={() => {
-              history.push(`/course/${course.id}`);
-            }}
-          >
-            <p>{course.text}</p>
-          </CourseEndpoint>
+          <Popover key={course.id} trigger="hover">
+            <PopoverTrigger>
+              <CourseEndpoint
+                top={course.top}
+                left={course.left}
+                color={course.color}
+                onClick={() => {
+                  history.push(`/course/${course.id}`);
+                }}
+              >
+                <p>{course.text}</p>
+              </CourseEndpoint>
+            </PopoverTrigger>
+            <PopoverContent
+              mt="30px"
+              bg="white"
+              border="solid 2px"
+              borderColor={course.color}
+              borderRadius="10px"
+            >
+              <PopoverHeader
+                color="#2f2f2f"
+                fontSize="16px"
+                fontWeight="600"
+                letterSpacing="2px"
+              >
+                {course.text}
+              </PopoverHeader>
+              <PopoverBody>{course.tooltip}</PopoverBody>
+            </PopoverContent>
+          </Popover>
         ))}
       </MapContainer>
     </HomePageContainer>
