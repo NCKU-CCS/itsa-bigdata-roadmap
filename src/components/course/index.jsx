@@ -5,38 +5,52 @@ import courseData from '../../constants/courseData';
 
 function Course() {
   const { courseId } = useParams();
-  const data = courseData.find((element) => element.courseId === courseId);
+  const data = courseData[courseId];
+  function importAll(r) {
+    return r.keys().map(r);
+  }
+  const images = importAll(
+    require.context('../../static/pic', false, /\.(png|jpe?g|svg)$/),
+  );
 
-  console.log(data);
   return (
     <CourseContainer>
       <InfoContainer>
-        <CourseName>{data.course_info.title}</CourseName>
-        <Description>{data.course_info.description}</Description>
+        <CourseName>{data.courseName}</CourseName>
+        <Description>{data.courseDesc}</Description>
       </InfoContainer>
-      {data.source_list.map((course) => (
-        <CourseCardContainer
-          key={course.title}
-        >
+      {data.sourceList.map((course) => (
+        <CourseCardContainer key={course.title}>
           <Information>
             <Row style={{ color: '#000000' }}>
-              <Circle />
+              <Circle
+                style={{
+                  backgroundColor: `${
+                    course.category === '影片' ? '#64379F' : '#37999F'
+                  }`,
+                }}
+              />
               {course.category}
             </Row>
             <Row style={{ fontSize: '0.94rem' }}>{course.platform}</Row>
-            <Row style={{ fontSize: '1.25rem' }}>
-              {course.title}
-            </Row>
+            <Row style={{ fontSize: '1.25rem' }}>{course.title}</Row>
             <Row>
               <b>課程來源：</b>
               <CourseLink href={course.link}>{course.link}</CourseLink>
             </Row>
             <Row>
-              <b>演講者：</b>{course.presenter}
+              <b>演講者：</b>
+              {course.presenter}
             </Row>
             <Row>{course.description}</Row>
           </Information>
-          <Source src={`./${course.picture_name}`} />
+          <Source
+            src={
+              images.find((e) =>
+                e.default.includes(course.pictureName.split('.')[0]),
+              ).default
+            }
+          />
         </CourseCardContainer>
       ))}
       <Footer />
@@ -49,11 +63,13 @@ export default Course;
 const CourseContainer = styled.div`
   height: 100vh;
   width: 100vw;
+  min-width: 1440px;
 `;
 
 const Footer = styled.div`
   height: 60px;
   width: 100vw;
+  min-width: 1440px;
   background-color: #324484;
 `;
 
@@ -86,7 +102,7 @@ const Description = styled.p`
 const CourseCardContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  width: 87.5rem;
+  width: 97%;
   margin: 0 0 2rem 1.25rem;
   border-radius: 10px;
   background-color: white;
@@ -107,7 +123,6 @@ const Circle = styled.span`
   display: inline-block;
   height: 1rem;
   width: 1rem;
-  background-color: #64379f;
   border-radius: 50%;
   margin-right: 0.5rem;
 `;
