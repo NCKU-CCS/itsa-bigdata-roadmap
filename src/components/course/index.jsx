@@ -47,8 +47,8 @@ function Course() {
           <Source
             src={
               images.find((e) =>
-                e.default.includes(course.pictureName.split('.')[0]),
-              ).default
+                e.default.includes(course.pictureName.split('.')[0])
+                  .default
             }
           />
         </CourseCardContainer>
