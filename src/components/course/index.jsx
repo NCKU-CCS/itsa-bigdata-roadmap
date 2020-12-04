@@ -33,7 +33,13 @@ function Course() {
                 <b style={{ whiteSpace: 'nowrap', alignSelf: 'flex-start' }}>
                   課程來源：
                 </b>
-                <CourseLink href={course.link}>{course.link}</CourseLink>
+                <CourseLink
+                  href={course.link}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  {course.link}
+                </CourseLink>
               </Row>
               <Row>
                 <b>演講者：</b>
@@ -41,10 +47,12 @@ function Course() {
               </Row>
               <Row>{course.description}</Row>
             </Information>
-            <Source
-              // eslint-disable-next-line global-require, import/no-dynamic-require
-              src={require(`../../static/pic/${course.pictureName}`).default}
-            />
+            <a href={course.link} target="_blank" rel="noreferrer noopener">
+              <Source
+                // eslint-disable-next-line global-require, import/no-dynamic-require
+                src={require(`../../static/pic/${course.pictureName}`).default}
+              />
+            </a>
           </CourseCardContainer>
         ))}
       </CourseContainer>
@@ -143,5 +151,6 @@ const Source = styled.img`
   border-radius: 0.94rem;
   :hover {
     box-shadow: 3px 3px 6px #bebebe;
+    cursor: pointer;
   }
 `;
