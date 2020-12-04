@@ -6,12 +6,6 @@ import courseData from '../../constants/courseData';
 function Course() {
   const { courseId } = useParams();
   const data = courseData[courseId];
-  function importAll(r) {
-    return r.keys().map(r);
-  }
-  const images = importAll(
-    require.context('../../static/pic', false, /\.(png|jpe?g|svg)$/),
-  );
 
   return (
     <CourseContainer>
@@ -45,11 +39,8 @@ function Course() {
             <Row>{course.description}</Row>
           </Information>
           <Source
-            src={
-              images.find((e) =>
-                e.default.includes(course.pictureName.split('.')[0]),
-              ).default
-            }
+            // eslint-disable-next-line global-require, import/no-dynamic-require
+            src={require(`../../static/pic/${course.pictureName}`).default}
           />
         </CourseCardContainer>
       ))}
