@@ -8,51 +8,53 @@ function Course() {
   const data = courseData[courseId];
 
   return (
-    <CourseContainer>
-      <InfoContainer>
-        <CourseName>{data.courseName}</CourseName>
-        <Description>{data.courseDesc}</Description>
-      </InfoContainer>
-      {data.sourceList.map((course) => (
-        <CourseCardContainer key={course.title}>
-          <Information>
-            <Row style={{ color: '#000000' }}>
-              <Circle
-                style={{
-                  backgroundColor: `${
-                    course.category === '影片' ? '#64379F' : '#37999F'
-                  }`,
-                }}
-              />
-              {course.category}
-            </Row>
-            <Row style={{ fontSize: '0.94rem' }}>{course.platform}</Row>
-            <Row style={{ fontSize: '1.25rem' }}>{course.title}</Row>
-            <Row>
-              <b>課程來源：</b>
-              <CourseLink href={course.link}>{course.link}</CourseLink>
-            </Row>
-            <Row>
-              <b>演講者：</b>
-              {course.presenter}
-            </Row>
-            <Row>{course.description}</Row>
-          </Information>
-          <Source
-            // eslint-disable-next-line global-require, import/no-dynamic-require
-            src={require(`../../static/pic/${course.pictureName}`).default}
-          />
-        </CourseCardContainer>
-      ))}
+    <div>
+      <CourseContainer>
+        <InfoContainer>
+          <CourseName>{data.courseName}</CourseName>
+          <Description>{data.courseDesc}</Description>
+        </InfoContainer>
+        {data.sourceList.map((course) => (
+          <CourseCardContainer key={course.title}>
+            <Information>
+              <Row style={{ color: '#000000' }}>
+                <Circle
+                  style={{
+                    backgroundColor: `${
+                      course.category === '影片' ? '#64379F' : '#37999F'
+                    }`,
+                  }}
+                />
+                {course.category}
+              </Row>
+              <Row style={{ fontSize: '0.94rem' }}>{course.platform}</Row>
+              <Row style={{ fontSize: '1.25rem' }}>{course.title}</Row>
+              <Row>
+                <b>課程來源：</b>
+                <CourseLink href={course.link}>{course.link}</CourseLink>
+              </Row>
+              <Row>
+                <b>演講者：</b>
+                {course.presenter}
+              </Row>
+              <Row>{course.description}</Row>
+            </Information>
+            <Source
+              // eslint-disable-next-line global-require, import/no-dynamic-require
+              src={require(`../../static/pic/${course.pictureName}`).default}
+            />
+          </CourseCardContainer>
+        ))}
+      </CourseContainer>
       <Footer />
-    </CourseContainer>
+    </div>
   );
 }
 
 export default Course;
 
 const CourseContainer = styled.div`
-  height: 100vh;
+  min-height: calc(100vh - 120px);
   width: 100vw;
   min-width: 1440px;
 `;
