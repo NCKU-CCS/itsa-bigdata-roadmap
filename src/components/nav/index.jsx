@@ -4,7 +4,11 @@ import { Text } from '@chakra-ui/react';
 
 function Nav() {
   return (
-    <NavContainer>
+    <NavContainer
+      onClick={() => {
+        window.location.replace('/');
+      }}
+    >
       <Text color="white" fontSize="24px" letterSpacing="3px">
         大數據課程地圖
       </Text>
@@ -23,4 +27,7 @@ const NavContainer = styled.div`
   align-items: center;
   padding-left: 20px;
   background-color: #324484;
+  :hover {
+    cursor: pointer;
+  }
 `;
