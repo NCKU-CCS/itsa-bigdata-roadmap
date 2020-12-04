@@ -30,7 +30,9 @@ function Course() {
               <Row style={{ fontSize: '0.94rem' }}>{course.platform}</Row>
               <Row style={{ fontSize: '1.25rem' }}>{course.title}</Row>
               <Row>
-                <b>課程來源：</b>
+                <b style={{ whiteSpace: 'nowrap', alignSelf: 'flex-start' }}>
+                  課程來源：
+                </b>
                 <CourseLink href={course.link}>{course.link}</CourseLink>
               </Row>
               <Row>
@@ -128,6 +130,7 @@ const Row = styled.div`
 `;
 
 const CourseLink = styled.a`
+  width: 100%;
   :hover {
     color: #64379f;
     cursor: pointer;
