@@ -180,7 +180,7 @@ const courseData = {
           '史丹佛大學推出的開放式課程，講授自然語言處理基本知識與相關演算法，並增加了深度學習在自然語言處理上的應用。',
         category: '影片',
         link: 'http://web.stanford.edu/class/cs224n/index.html',
-        pictureName: NaN,
+        pictureName: '2-I33.png',
       },
       {
         title: 'Natural Language Understanding',
@@ -190,7 +190,7 @@ const courseData = {
           '史丹佛大學推出的開放式課程，講授自然語言理解基本知識與相關演算法。',
         category: '文章',
         link: 'https://web.stanford.edu/class/cs224u/',
-        pictureName: NaN,
+        pictureName: 'NaN.png',
       },
       {
         title: '自然語言處理 專項課程',
@@ -201,7 +201,7 @@ const courseData = {
         category: '影片',
         link:
           'https://zh-tw.coursera.org/specializations/natural-language-processing',
-        pictureName: NaN,
+        pictureName: 'NaN.png',
       },
     ],
   },
@@ -216,9 +216,9 @@ const courseData = {
         platform: 'Cousera',
         description:
           'Coursera推出的開放式課程，介紹文字探勘基礎與方法，並透過 Python 實作。',
-        category: NaN,
+        category: 'NaN.png',
         link: 'https://zh-tw.coursera.org/learn/python-text-mining',
-        pictureName: NaN,
+        pictureName: '1-I34.png',
       },
       {
         title: 'Text Mining',
@@ -227,7 +227,7 @@ const courseData = {
         description: '介紹一些文字探勘的概念，並佐以 Python 程式碼實作說明。',
         category: '文章',
         link: 'https://medium.com/@a10135198/text-mining-818a20017e69',
-        pictureName: NaN,
+        pictureName: 'NaN.png',
       },
     ],
   },
@@ -245,7 +245,7 @@ const courseData = {
         category: '影片',
         link:
           'https://zh-tw.coursera.org/learn/deep-learning-in-computer-vision',
-        pictureName: NaN,
+        pictureName: '1-I35.png',
       },
       {
         title: 'Computer Vision Basics',
@@ -254,7 +254,7 @@ const courseData = {
         description: 'Coursera推出的開放式課程，課程講授電腦視覺的基礎知識。',
         category: '影片',
         link: 'https://zh-tw.coursera.org/learn/computer-vision-basics',
-        pictureName: NaN,
+        pictureName: 'NaN.png',
       },
     ],
   },
@@ -271,7 +271,7 @@ const courseData = {
           '台大電機系李琳山教授的開放式課程，介紹數位語音處理的基礎數學知識與相關的機器學習演算法。',
         category: '影片',
         link: 'http://ocw.aca.ntu.edu.tw/ntu-ocw/ocw/cou/104S204/2',
-        pictureName: NaN,
+        pictureName: '1-I36.png',
       },
     ],
   },
@@ -288,7 +288,7 @@ const courseData = {
           'Coursera推出的開放式課程，介紹社群網路的基本結構與分析方法。',
         category: '影片',
         link: 'https://www.coursera.org/learn/social-network-analysis',
-        pictureName: NaN,
+        pictureName: '1-I37.png',
       },
     ],
   },
@@ -426,7 +426,7 @@ const courseData = {
       },
       {
         title: '7 Data Collection Methods & Tools For Research',
-        presenter: NaN,
+        presenter: 'NaN.png',
         platform: 'Formplus Blog ',
         description: '7 Data Collection Methods ',
         category: '文章',
@@ -771,7 +771,7 @@ const courseData = {
       },
       {
         title: 'NumPy, SciPy, and Pandas: Correlation With Python',
-        presenter: NaN,
+        presenter: 'NaN.png',
         platform: 'Mirko Stojiljković',
         description: 'Implementation of correlation coefficient',
         category: '文章',
@@ -851,7 +851,7 @@ const courseData = {
       },
       {
         title: 'Lecture 3: GFS (MIT 6.824: Distributed Systems (Spring 2020))',
-        presenter: NaN,
+        presenter: 'NaN.png',
         platform: 'Youtube',
         description: 'Concept of Distributed Storage',
         category: '影片',
@@ -861,7 +861,7 @@ const courseData = {
       {
         title:
           'Explain Distributed Storage - and how it goes down for github / uilicious / cloud / etc',
-        presenter: NaN,
+        presenter: 'NaN.png',
         platform: 'UIlicious',
         description: 'From Distributed Storage to github/cloud etc',
         category: '文章',
@@ -1005,7 +1005,7 @@ const courseData = {
       },
       {
         title: 'MapReduce再學習：資源管理框架YARN',
-        presenter: NaN,
+        presenter: 'NaN.png',
         platform: 'ITread01',
         description: 'Introduction of YARN ',
         category: '文章',
@@ -1134,7 +1134,7 @@ const courseData = {
       },
       {
         title: 'What is Zookeeper',
-        presenter: NaN,
+        presenter: 'NaN.png',
         platform: 'CoreJavaGuru',
         description: 'Introduction of zookeeper',
         category: '文章',
@@ -1188,7 +1188,7 @@ const courseData = {
         category: '影片',
         link:
           'https://www.coursera.org/lecture/machine-learning/supervised-learning-1VkCb',
-        pictureName: '4-I19.jpg',
+        pictureName: '4-I19.png',
       },
       {
         title:
@@ -1313,7 +1313,7 @@ const courseData = {
       },
       {
         title: 'K-Nearest Neighbor(KNN) Algorithm for Machine Learning',
-        presenter: NaN,
+        presenter: 'NaN.png',
         platform: 'javaTpoint',
         description: 'KNN Introduction',
         category: '文章',
@@ -1581,7 +1581,7 @@ const courseData = {
         description: '讓大家知道GAN這個技術實際運作起來的情況',
         category: '影片',
         link: 'https://www.youtube.com/watch?v=DQNNMiAP5lw',
-        pictureName: '3-I25.jpg',
+        pictureName: '3-I25.png',
       },
       {
         title:
@@ -1802,6 +1802,44 @@ const courseData = {
           'https://www-apr.lip6.fr/~tierny/stuff/teaching/tierny_visualization_introduction.pdf',
         pictureName: '1-I29.png',
       },
+      {
+        title: 'Introduction to Scientific Visualization\n',
+        presenter: 'AJ Christensen',
+        platform: 'Coursera',
+        description:
+          'This course is an introduction to 3D scientific data visualization, with an emphasis on science communication and cinematic design for appealing to broad audiences.',
+        category: '影片',
+        link:
+          'https://www.coursera.org/lecture/data-visualization-science-communication/introduction-to-scientific-visualization-vniPb',
+        pictureName: '2-I29.png',
+      },
+      {
+        title: '[Day 18] 資料分布的圖表3 - 地圖',
+        presenter: 'panmike21',
+        platform: 'iT邦幫忙',
+        description: '介紹一些地理相關圖表',
+        category: '文章',
+        link: 'https://ithelp.ithome.com.tw/articles/10219441?sc=rss.iron',
+        pictureName: '3-I29.png',
+      },
+      {
+        title: '[Day 17] 資料分布的圖表2 - 盒鬚圖與熱度圖',
+        presenter: 'panmike21',
+        platform: 'iT邦幫忙',
+        description: '介紹盒鬚圖和熱度圖的使用方法',
+        category: '文章',
+        link: 'https://ithelp.ithome.com.tw/articles/10218426',
+        pictureName: '4-I29.png',
+      },
+      {
+        title: '[Day 16] 資料分布的圖表1 - 散佈圖與泡泡圖',
+        presenter: 'panmike21',
+        platform: 'iT邦幫忙',
+        description: '介紹散佈圖和泡泡圖的使用方法',
+        category: '文章',
+        link: 'https://ithelp.ithome.com.tw/articles/10218132',
+        pictureName: '5-I29.png',
+      },
     ],
   },
   dataVisualization: {
@@ -1830,6 +1868,37 @@ const courseData = {
           'https://www.youtube.com/watch?v=-NOLzwAUPMY&list=PLy7MS-q4l3xB1OGas1HZWJc7YTBWmGdUT&index=8',
         pictureName: '2-I30.png',
       },
+      {
+        title: '[Day 14] 呈現組成結構的圖表3 - 樹狀結構圖與瀑布圖',
+        presenter: 'panmike21',
+        platform: 'iT邦幫忙',
+        description:
+          '介紹樹狀結構圖與瀑布圖這兩種在使用情境上面相對較單純的圖表',
+        category: '文章',
+        link: 'https://ithelp.ithome.com.tw/articles/10217105',
+        pictureName: '3-I30.png',
+      },
+      {
+        title: '資料視覺化Data Visualization：圖表設計',
+        presenter: 'Shandy Tsai',
+        platform: 'Medium',
+        description:
+          '帶大家認識Data Visualization的基本觀念、圖表設計步驟到實際演練。',
+        category: '文章',
+        link:
+          'https://medium.com/uxeastmeetswest/%E8%B3%87%E6%96%99%E8%A6%96%E8%A6%BA%E5%8C%96data-visualization-%E5%9C%96%E8%A1%A8%E8%A8%AD%E8%A8%88-9ef17943a2d4',
+        pictureName: '4-I30.png',
+      },
+      {
+        title: '淺談資料視覺化',
+        presenter: '葉奕成',
+        platform: '科學Online',
+        description:
+          '資料視覺化是資料驅動決策的時代裡面，幫助科學家從數據中進行分析與判斷的重要工具，透過增強使用者理解數據的能力，使其能夠精準的從數據中發掘資訊與洞見',
+        category: '文章',
+        link: 'https://highscope.ch.ntu.edu.tw/wordpress/?p=83689',
+        pictureName: '5-I30.png',
+      },
     ],
   },
   visualAnalysis: {
@@ -1846,6 +1915,46 @@ const courseData = {
         link:
           'https://www.idashboards.com/blog/2019/04/24/how-to-visualize-exploratory-data-analysis/',
         pictureName: '1-I31.png',
+      },
+      {
+        title: '如何溝通資料：互動式圖表及 R 語言',
+        presenter: 'Yao-Jen Kuo',
+        platform: 'Medium',
+        description: '使用 Plotly、Shiny 與 R 語言複製一個 Gapminder 視覺化',
+        category: '文章',
+        link:
+          'https://medium.com/datainpoint/interactive-gapminder-with-r-ea4adeea2830',
+        pictureName: '2-I31.png',
+      },
+      {
+        title: '如何溝通資料：互動式圖表及 Python',
+        presenter: 'Yao-Jen Kuo',
+        platform: 'Medium',
+        description: '使用 Dash 與 Python 複製一個 Gapminder 視覺化',
+        category: '文章',
+        link:
+          'https://medium.com/datainpoint/interactive-gapminder-with-python-90f8d604a0a2',
+        pictureName: '3-I31.png',
+      },
+      {
+        title: '為所有人打造的資料視覺化服務 — PlotDB',
+        presenter: 'NaN.png',
+        platform: 'infographics',
+        description: 'PlotDB線上動態圖表介紹，不會寫程式也能上手',
+        category: '文章',
+        link:
+          'http://blog.infographics.tw/2016/11/plotdb-the-data-visualization-service/',
+        pictureName: '4-I31.png',
+      },
+      {
+        title: 'python_互動式圖表',
+        presenter: 'Tsai Kam',
+        platform: 'Medium',
+        description: '介紹用python互動式圖表的套件來找出insight',
+        category: '文章',
+        link:
+          'https://medium.com/%E8%AA%AA%E8%AA%AA5%E5%88%86%E9%90%98/python-%E4%BA%92%E5%8B%95%E5%BC%8F%E5%9C%96%E8%A1%A8-59070d80004e',
+        pictureName: '5-I31.png',
       },
     ],
   },
