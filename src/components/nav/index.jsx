@@ -10,7 +10,7 @@ function Nav() {
       }}
     >
       <Text color="white" fontSize="24px" letterSpacing="3px">
-        大數據課程地圖
+        大數據知識地圖
       </Text>
     </NavContainer>
   );
