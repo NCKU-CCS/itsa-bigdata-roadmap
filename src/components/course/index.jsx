@@ -1,4 +1,5 @@
 import React from 'react';
+import { Badge } from '@chakra-ui/react';
 import styled from '@emotion/styled';
 import { useParams } from 'react-router-dom';
 import courseData from '../../constants/courseData';
@@ -29,6 +30,42 @@ function Course() {
               </Row>
               <Row style={{ fontSize: '0.94rem' }}>{course.platform}</Row>
               <Row style={{ fontSize: '1.25rem' }}>{course.title}</Row>
+              <Row>
+                {course.tags.length > 4 ? (
+                  <Badge
+                    colorScheme="purple"
+                    mr={4}
+                    px={2}
+                    py={1}
+                    fontSize="14px"
+                    fontWeight="500"
+                    letterSpacing="2.1px"
+                    color="#324484"
+                    bgColor="rgba(150, 165, 215, 0.25)"
+                    borderRadius="6px"
+                  >
+                    #綜合領域
+                  </Badge>
+                ) : (
+                  course.tags.map((tag) => (
+                    <Badge
+                      key={tag}
+                      colorScheme="purple"
+                      mr={4}
+                      px={2}
+                      py={1}
+                      fontSize="14px"
+                      fontWeight="500"
+                      letterSpacing="2.1px"
+                      color="#324484"
+                      bgColor="rgba(150, 165, 215, 0.25)"
+                      borderRadius="6px"
+                    >
+                      #{tag}
+                    </Badge>
+                  ))
+                )}
+              </Row>
               <Row>
                 <b style={{ whiteSpace: 'nowrap', alignSelf: 'flex-start' }}>
                   課程來源：
