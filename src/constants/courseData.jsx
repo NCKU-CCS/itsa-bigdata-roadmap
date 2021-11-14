@@ -12,6 +12,14 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=zez2Tv-bcXY',
         pictureName: '1-I2.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: '大數據自學教材 ',
@@ -22,6 +30,14 @@ const courseData = {
         link:
           'https://sites.google.com/tkgsh.tn.edu.tw/rose-office/office-2013/excel/大數據教材',
         pictureName: '2-I2.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title:
@@ -32,6 +48,13 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=OP8BsGnqi9c',
         pictureName: '3-I2.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title:
@@ -42,6 +65,14 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=s8V8nT26yKo',
         pictureName: '4-I2.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title:
@@ -52,6 +83,13 @@ const courseData = {
         category: '文章',
         link: 'https://www.youtube.com/watch?v=1vbXmCrkT3Y',
         pictureName: '5-I2.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
     ],
   },
@@ -68,6 +106,14 @@ const courseData = {
         category: '文章',
         link: 'http://kaiching.org/pydoing/python.html',
         pictureName: '1-I3.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'R：免費自學課程地圖 ',
@@ -77,6 +123,7 @@ const courseData = {
         category: '文章',
         link: 'https://bap.cm.nsysu.edu.tw/?p=798',
         pictureName: '2-I3.png',
+        tags: ['製造業', '資訊及通訊傳播業', '醫療保健及社會工作服務業'],
       },
       {
         title: 'SQL語法教學',
@@ -86,6 +133,13 @@ const courseData = {
         category: '文章',
         link: 'https://www.1keydata.com/tw/sql/sql.html',
         pictureName: '3-I3.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Python 簡介、安裝、與快速開始',
@@ -96,6 +150,14 @@ const courseData = {
         link:
           'https://www.youtube.com/watch?v=wqRlKVRUV_k&list=PL-g0fdC5RMboYEyt6QS2iLb_1m7QcgfHk',
         pictureName: '4-I3.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'CH01 PostgreSQL資料庫介紹 ',
@@ -106,6 +168,13 @@ const courseData = {
         link:
           'https://www.youtube.com/watch?v=_CzU3SCB7xU&list=PLst_JE7uVIPUCjAFcDr0dVVEvGkVJ4gd2',
         pictureName: '5-I3.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '醫療保健及社會工作服務業',
+        ],
       },
     ],
   },
@@ -123,6 +192,14 @@ const courseData = {
         category: '影片',
         link: 'http://ocw.nthu.edu.tw/ocw/index.php?page=course&cid=256&',
         pictureName: '1-I32.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Amazon Web Service 入門資源中心',
@@ -133,6 +210,13 @@ const courseData = {
         category: '文章',
         link: 'https://aws.amazon.com/tw/getting-started/',
         pictureName: '2-I32.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Azure 文件',
@@ -143,6 +227,14 @@ const courseData = {
         category: '文章',
         link: 'https://docs.microsoft.com/zh-tw/azure/?product=featured',
         pictureName: '3-I32.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Virtualization Technology vs. Cloud Virtualization',
@@ -153,6 +245,12 @@ const courseData = {
         link:
           'https://www.dnsstuff.com/virtualization-technology-cloud-computing-types',
         pictureName: '4-I32.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '醫療保健及社會工作服務業',
+        ],
       },
     ],
   },
@@ -171,6 +269,12 @@ const courseData = {
         link:
           'https://www.youtube.com/playlist?list=PLoROMvodv4rOFZnDyrlW3-nI7tMLtmiJZ&disable_polymer=true',
         pictureName: '1-I33.png',
+        tags: [
+          '製造業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'CS224n: Natural Language Processing with Deep Learning (2020)',
@@ -181,6 +285,7 @@ const courseData = {
         category: '影片',
         link: 'http://web.stanford.edu/class/cs224n/index.html',
         pictureName: '2-I33.png',
+        tags: ['資訊及通訊傳播業', '醫療保健及社會工作服務業'],
       },
       {
         title: 'Natural Language Understanding',
@@ -191,6 +296,13 @@ const courseData = {
         category: '文章',
         link: 'https://web.stanford.edu/class/cs224u/',
         pictureName: 'NaN.png',
+        tags: [
+          '製造業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: '自然語言處理 專項課程',
@@ -202,6 +314,13 @@ const courseData = {
         link:
           'https://zh-tw.coursera.org/specializations/natural-language-processing',
         pictureName: 'NaN.png',
+        tags: [
+          '製造業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
     ],
   },
@@ -219,6 +338,13 @@ const courseData = {
         category: 'NaN.png',
         link: 'https://zh-tw.coursera.org/learn/python-text-mining',
         pictureName: '1-I34.png',
+        tags: [
+          '製造業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Text Mining',
@@ -228,6 +354,12 @@ const courseData = {
         category: '文章',
         link: 'https://medium.com/@a10135198/text-mining-818a20017e69',
         pictureName: 'NaN.png',
+        tags: [
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
     ],
   },
@@ -246,6 +378,13 @@ const courseData = {
         link:
           'https://zh-tw.coursera.org/learn/deep-learning-in-computer-vision',
         pictureName: '1-I35.png',
+        tags: [
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Computer Vision Basics',
@@ -255,6 +394,14 @@ const courseData = {
         category: '影片',
         link: 'https://zh-tw.coursera.org/learn/computer-vision-basics',
         pictureName: 'NaN.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
     ],
   },
@@ -272,6 +419,7 @@ const courseData = {
         category: '影片',
         link: 'http://ocw.aca.ntu.edu.tw/ntu-ocw/ocw/cou/104S204/2',
         pictureName: '1-I36.png',
+        tags: ['教育服務業', '金融及保險業', '醫療保健及社會工作服務業'],
       },
     ],
   },
@@ -289,6 +437,12 @@ const courseData = {
         category: '影片',
         link: 'https://www.coursera.org/learn/social-network-analysis',
         pictureName: '1-I37.png',
+        tags: [
+          '製造業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '醫療保健及社會工作服務業',
+        ],
       },
     ],
   },
@@ -305,6 +459,14 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=xTNQS-EIhRI',
         pictureName: '1-I4.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Getting Started with the Firebase Realtime Database on the Web',
@@ -315,6 +477,12 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=dBscwaqNPuk',
         pictureName: '2-I4.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'An Introduction To NoSQL Databases',
@@ -324,6 +492,12 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=uD3p_rZPBUQ',
         pictureName: '3-I4.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Database Design Course ',
@@ -333,6 +507,13 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=ztHopE5Wnpc',
         pictureName: '4-I4.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Python PostgreSql Database Tutorial For Beginners',
@@ -342,6 +523,12 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=i04Rgnn2XbI',
         pictureName: '5-I4.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '醫療保健及社會工作服務業',
+        ],
       },
     ],
   },
@@ -358,6 +545,14 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=NVBQSR_HdL0',
         pictureName: '1-I5.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title:
@@ -369,6 +564,13 @@ const courseData = {
         link:
           'https://www.oreilly.com/library/view/network-security-through/9781449357894/ch04.html',
         pictureName: '2-I5.png',
+        tags: [
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title:
@@ -380,6 +582,13 @@ const courseData = {
         link:
           'https://www.sciencedirect.com/science/article/pii/S2213133720300639',
         pictureName: '3-I5.png',
+        tags: [
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Quick Tips & Shortcuts for Database Searching',
@@ -389,6 +598,13 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=aWqdF9L4D24',
         pictureName: '4-I5.png',
+        tags: [
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Entity Relationship Diagram (ERD) Tutorial - Part 1',
@@ -398,6 +614,14 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=QpdhBUYk7Kk',
         pictureName: '5-I5.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
     ],
   },
@@ -414,6 +638,13 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=9Z9xKWfNo7k',
         pictureName: '1-I6.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Learn API Basics to Grab Data with Python',
@@ -423,6 +654,13 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=pxofwuWTs7c',
         pictureName: '2-I6.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: '7 Data Collection Methods & Tools For Research',
@@ -432,6 +670,13 @@ const courseData = {
         category: '文章',
         link: 'https://www.formpl.us/blog/data-collection-method',
         pictureName: '3-I6.png',
+        tags: [
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Effective Data Collection: Techniques and Tools',
@@ -441,6 +686,13 @@ const courseData = {
         category: '文章',
         link: 'https://youtu.be/abxXMhYW04o',
         pictureName: '4-I6.png',
+        tags: [
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Data Collection Technique',
@@ -451,6 +703,14 @@ const courseData = {
         link:
           'https://www.sciencedirect.com/topics/social-sciences/data-collection-technique',
         pictureName: '5-I6.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
     ],
   },
@@ -467,6 +727,13 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=fCMrO_VzeL8',
         pictureName: '1-I7.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Handling imbalanced Dataset using python',
@@ -476,6 +743,13 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=YMPMZmlH5Bo',
         pictureName: '2-I7.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Introduction to Data Processing in Python with Pandas',
@@ -485,6 +759,14 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=5rNu16O3YNE',
         pictureName: '3-I7.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Data Preprocessing Steps for Machine Learning & Data analytics',
@@ -495,6 +777,14 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=NBm4etNMT5k',
         pictureName: '4-I7.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'PYTHON SKLEARN PRE-PROCESSING + PIPELINE (22/30)',
@@ -504,6 +794,13 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=OGWwzm304Xs',
         pictureName: '5-I7.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
     ],
   },
@@ -521,6 +818,14 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=zW1SvA0Z-l4',
         pictureName: '1-I8.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Feature Selection Embedded methods',
@@ -530,6 +835,14 @@ const courseData = {
         category: '文章',
         link: 'https://ithelp.ithome.com.tw/articles/10246876',
         pictureName: '2-I8.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Feature Selection wrapper methods',
@@ -539,6 +852,14 @@ const courseData = {
         category: '文章',
         link: 'https://ithelp.ithome.com.tw/articles/10246251',
         pictureName: '3-I8.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Feature Selection filter methods',
@@ -548,6 +869,14 @@ const courseData = {
         category: '文章',
         link: 'https://ithelp.ithome.com.tw/articles/10245037',
         pictureName: '4-I8.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: "Beginner's Guide to Feature Selection in Python  ",
@@ -558,6 +887,14 @@ const courseData = {
         link:
           'https://www.datacamp.com/community/tutorials/feature-selection-python',
         pictureName: '5-I8.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
     ],
   },
@@ -574,6 +911,13 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=UyAfmAZU_WI',
         pictureName: '1-I9.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Dimension Reduction Techniques with Python',
@@ -584,6 +928,13 @@ const courseData = {
         link:
           'https://towardsdatascience.com/dimension-reduction-techniques-with-python-f36ca7009e5c',
         pictureName: '2-I9.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title:
@@ -595,6 +946,12 @@ const courseData = {
         link:
           'https://thenewstack.io/3-new-techniques-for-data-dimensionality-reduction-in-machine-learning/',
         pictureName: '3-I9.png',
+        tags: [
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title:
@@ -605,6 +962,12 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=AU_hBML2H1c',
         pictureName: '4-I9.png',
+        tags: [
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'StatQuest: Principal Component Analysis (PCA), Step-by-Step',
@@ -614,6 +977,7 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=FgakZw6K1QQ',
         pictureName: '5-I9.png',
+        tags: ['教育服務業', '資訊及通訊傳播業', '醫療保健及社會工作服務業'],
       },
     ],
   },
@@ -631,6 +995,14 @@ const courseData = {
         link:
           'http://www.math.ncku.edu.tw/~library/e-book/Probability%20Theory.pdf',
         pictureName: '1-I10.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: '機率論',
@@ -641,6 +1013,14 @@ const courseData = {
         link:
           'https://www.youtube.com/watch?v=YGpKcJdrp5A&list=PLw9fh2FrjAqu1Gj_WznO-humCJT-OB2zF',
         pictureName: '2-I10.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Bayes theorem',
@@ -650,6 +1030,13 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=HZGCoVF3YvM',
         pictureName: '3-I10.png',
+        tags: [
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Python for Data Analysis: Probability Distributions',
@@ -659,6 +1046,14 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=uial-2girHQ',
         pictureName: '4-I10.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Probability Distributions in Python',
@@ -669,6 +1064,14 @@ const courseData = {
         link:
           'https://www.datacamp.com/community/tutorials/probability-distributions-python',
         pictureName: '5-I10.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
     ],
   },
@@ -685,6 +1088,12 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=6T6dvrwDe_U',
         pictureName: '1-I11.png',
+        tags: [
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Random Effects Estimator - an introduction',
@@ -694,6 +1103,12 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=bQampZBzU9Q',
         pictureName: '2-I11.png',
+        tags: [
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Panel Data Models with Individual and Time Fixed Effects',
@@ -703,6 +1118,12 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=pQvhi60yN74',
         pictureName: '3-I11.png',
+        tags: [
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title:
@@ -714,6 +1135,14 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=PoiBaiDNi9o',
         pictureName: '4-I11.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'ONE-WAY ANOVA',
@@ -723,6 +1152,12 @@ const courseData = {
         category: '文章',
         link: 'https://www.pythonfordatascience.org/anova-python/',
         pictureName: '5-I11.png',
+        tags: [
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
     ],
   },
@@ -739,6 +1174,7 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=0qLKfMm45-4',
         pictureName: '1-I12.png',
+        tags: ['教育服務業', '資訊及通訊傳播業', '醫療保健及社會工作服務業'],
       },
       {
         title:
@@ -749,6 +1185,12 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=2SCg8Kuh0tE',
         pictureName: '2-I12.png',
+        tags: [
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: "Kendall's tau - Explained Simply + Examples (part 1)",
@@ -758,6 +1200,7 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=oXVxaSoY94k',
         pictureName: '3-I12.png',
+        tags: ['教育服務業', '資訊及通訊傳播業', '醫療保健及社會工作服務業'],
       },
       {
         title:
@@ -768,6 +1211,7 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=sCkS-0kIRCE',
         pictureName: '4-I12.png',
+        tags: ['教育服務業', '資訊及通訊傳播業', '醫療保健及社會工作服務業'],
       },
       {
         title: 'NumPy, SciPy, and Pandas: Correlation With Python',
@@ -777,6 +1221,14 @@ const courseData = {
         category: '文章',
         link: 'https://realpython.com/numpy-scipy-pandas-correlation-python/',
         pictureName: '5-I12.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
     ],
   },
@@ -794,6 +1246,7 @@ const courseData = {
         link:
           'https://medium.com/the-bayesian-trap/7-%E8%88%88%E8%B6%A3%E4%BD%BF%E7%84%B6%E5%9C%B0%E5%AD%B8%E7%BF%92%E5%88%86%E6%95%A3%E5%BC%8F%E7%B3%BB%E7%B5%B1-1-167180ca7152',
         pictureName: '1-I13.png',
+        tags: ['製造業', '資訊及通訊傳播業', '醫療保健及社會工作服務業'],
       },
       {
         title: 'What is a Distributed System?',
@@ -803,6 +1256,7 @@ const courseData = {
         category: '文章',
         link: 'https://blog.stackpath.com/distributed-system/',
         pictureName: '2-I13.png',
+        tags: ['製造業', '資訊及通訊傳播業', '醫療保健及社會工作服務業'],
       },
       {
         title: 'Distributed Systems | Distributed Computing Explained',
@@ -812,6 +1266,7 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=ajjOEltiZm4',
         pictureName: '3-I13.jpg',
+        tags: ['資訊及通訊傳播業', '醫療保健及社會工作服務業'],
       },
       {
         title: 'Distributed Systems in One Lesson by Tim Berglund',
@@ -821,6 +1276,7 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=Y6Ev8GIlbxc',
         pictureName: '4-I13.jpg',
+        tags: ['資訊及通訊傳播業', '醫療保健及社會工作服務業'],
       },
       {
         title:
@@ -832,6 +1288,7 @@ const courseData = {
         link:
           'https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB',
         pictureName: '5-I13.jpg',
+        tags: ['資訊及通訊傳播業', '醫療保健及社會工作服務業'],
       },
     ],
   },
@@ -848,6 +1305,12 @@ const courseData = {
         category: '文章',
         link: 'https://cloudian.com/guides/data-backup/distributed-storage/',
         pictureName: '1-I14.png',
+        tags: [
+          '製造業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Lecture 3: GFS (MIT 6.824: Distributed Systems (Spring 2020))',
@@ -857,6 +1320,12 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=EpIgvowZr00',
         pictureName: '2-I14.jpg',
+        tags: [
+          '製造業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title:
@@ -868,6 +1337,11 @@ const courseData = {
         link:
           'https://uilicious.com/blog/explain-distributed-storage-and-how-it-goes-down-for-github-uilicious-cloud-etc/',
         pictureName: '3-I14.png',
+        tags: [
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title:
@@ -878,6 +1352,12 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=64ioICo0YBo',
         pictureName: '4-I14.jpg',
+        tags: [
+          '製造業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title:
@@ -888,6 +1368,7 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=GJYEsEEfjvk',
         pictureName: '5-I14.jpg',
+        tags: ['製造業', '資訊及通訊傳播業', '醫療保健及社會工作服務業'],
       },
       {
         title:
@@ -898,6 +1379,7 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=R0WygLgY2nM',
         pictureName: '6-I14.jpg',
+        tags: ['製造業', '資訊及通訊傳播業', '醫療保健及社會工作服務業'],
       },
       {
         title:
@@ -908,6 +1390,7 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=cEjDR3B_3cs',
         pictureName: '7-I14.jpg',
+        tags: ['製造業', '資訊及通訊傳播業', '醫療保健及社會工作服務業'],
       },
     ],
   },
@@ -925,6 +1408,7 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=SqvAaB3vK8U',
         pictureName: '1-I15.jpg',
+        tags: ['製造業', '資訊及通訊傳播業', '醫療保健及社會工作服務業'],
       },
       {
         title: 'What is MapReduce?',
@@ -935,6 +1419,7 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=43fqzaSH0CQ',
         pictureName: '2-I15.jpg',
+        tags: ['製造業', '資訊及通訊傳播業', '醫療保健及社會工作服務業'],
       },
       {
         title:
@@ -945,6 +1430,7 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=b-IvmXoO0bU',
         pictureName: '3-I15.jpg',
+        tags: ['製造業', '資訊及通訊傳播業', '醫療保健及社會工作服務業'],
       },
       {
         title:
@@ -955,6 +1441,7 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=ivgQtdB-BS4',
         pictureName: '4-I15.jpg',
+        tags: ['製造業', '資訊及通訊傳播業', '醫療保健及社會工作服務業'],
       },
       {
         title:
@@ -965,6 +1452,7 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=xDpvyu0w0C8',
         pictureName: '5-I15.jpg',
+        tags: ['製造業', '資訊及通訊傳播業', '醫療保健及社會工作服務業'],
       },
       {
         title:
@@ -975,6 +1463,7 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=QaoJNXW6SQo',
         pictureName: '6-I15.jpg',
+        tags: ['製造業', '資訊及通訊傳播業', '醫療保健及社會工作服務業'],
       },
     ],
   },
@@ -992,6 +1481,7 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=KqaPMCMHH4g',
         pictureName: '1-I16.jpg',
+        tags: ['製造業', '資訊及通訊傳播業', '醫療保健及社會工作服務業'],
       },
       {
         title:
@@ -1002,6 +1492,7 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=fCoivEBDmYA',
         pictureName: '2-I16.jpg',
+        tags: ['製造業', '資訊及通訊傳播業', '醫療保健及社會工作服務業'],
       },
       {
         title: 'MapReduce再學習：資源管理框架YARN',
@@ -1011,6 +1502,7 @@ const courseData = {
         category: '文章',
         link: 'https://www.itread01.com/content/1549393578.html',
         pictureName: '3-I16.png',
+        tags: ['製造業', '資訊及通訊傳播業', '醫療保健及社會工作服務業'],
       },
       {
         title: 'Understanding Hadoop Yarn',
@@ -1021,6 +1513,7 @@ const courseData = {
         link:
           'https://medium.com/@elmaslouhy.mouaad/introduction-to-hadoop-yarn-92d61ee54c13',
         pictureName: '4-I16.png',
+        tags: ['製造業', '資訊及通訊傳播業', '醫療保健及社會工作服務業'],
       },
     ],
   },
@@ -1038,6 +1531,7 @@ const courseData = {
         link:
           'https://medium.com/@chihsuan/introduction-to-apache-kafka-1cae693aa85e',
         pictureName: '1-I17.png',
+        tags: ['製造業', '資訊及通訊傳播業', '醫療保健及社會工作服務業'],
       },
       {
         title:
@@ -1048,6 +1542,7 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=06iRM1Ghr1k',
         pictureName: '2-I17.jpg',
+        tags: ['製造業', '資訊及通訊傳播業', '醫療保健及社會工作服務業'],
       },
       {
         title: 'Apache Kafka Crash Course',
@@ -1057,6 +1552,7 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=R873BlNVUB4',
         pictureName: '3-I17.jpg',
+        tags: ['製造業', '資訊及通訊傳播業', '醫療保健及社會工作服務業'],
       },
       {
         title:
@@ -1067,6 +1563,7 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=hyJZP-rgooc',
         pictureName: '4-I17.jpg',
+        tags: ['製造業', '資訊及通訊傳播業', '醫療保健及社會工作服務業'],
       },
       {
         title: 'Apache Kafka Explained (Comprehensive Overview)',
@@ -1076,6 +1573,7 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=JalUUBKdcA0',
         pictureName: '5-I17.jpg',
+        tags: ['製造業', '資訊及通訊傳播業', '醫療保健及社會工作服務業'],
       },
     ],
   },
@@ -1092,6 +1590,7 @@ const courseData = {
         category: '文章',
         link: 'https://ithelp.ithome.com.tw/articles/10224017',
         pictureName: '1-I18.png',
+        tags: ['製造業', '資訊及通訊傳播業', '醫療保健及社會工作服務業'],
       },
       {
         title: 'Zookeeper - 介紹與實作Lock與2PC',
@@ -1101,6 +1600,7 @@ const courseData = {
         category: '文章',
         link: 'https://ithelp.ithome.com.tw/articles/10225471',
         pictureName: '2-I18.png',
+        tags: ['製造業', '資訊及通訊傳播業', '醫療保健及社會工作服務業'],
       },
       {
         title:
@@ -1111,6 +1611,7 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=pbmyrNjzdDk',
         pictureName: '3-I18.jpg',
+        tags: ['製造業', '資訊及通訊傳播業', '醫療保健及社會工作服務業'],
       },
       {
         title: 'What is Zookeeper?',
@@ -1120,6 +1621,7 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=AS5a91DOmks',
         pictureName: '4-I18.jpg',
+        tags: ['製造業', '資訊及通訊傳播業', '醫療保健及社會工作服務業'],
       },
       {
         title:
@@ -1131,6 +1633,7 @@ const courseData = {
         link:
           'https://medium.com/@bikas.katwal10/zookeeper-introduction-designing-a-distributed-system-using-zookeeper-and-java-7f1b108e236e',
         pictureName: '5-I18.png',
+        tags: ['製造業', '資訊及通訊傳播業', '醫療保健及社會工作服務業'],
       },
       {
         title: 'What is Zookeeper',
@@ -1140,6 +1643,7 @@ const courseData = {
         category: '文章',
         link: 'http://www.corejavaguru.com/bigdata/zookeeper/what-is-zookeeper',
         pictureName: '6-I18.png',
+        tags: ['製造業', '資訊及通訊傳播業', '醫療保健及社會工作服務業'],
       },
     ],
   },
@@ -1157,6 +1661,13 @@ const courseData = {
         category: '文章',
         link: 'https://www.ibm.com/cloud/learn/supervised-learning',
         pictureName: '1-I19.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Unsupervised learning',
@@ -1168,6 +1679,13 @@ const courseData = {
         link:
           'https://searchenterpriseai.techtarget.com/definition/unsupervised-learning',
         pictureName: '2-I19.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Unsupervised learning',
@@ -1179,6 +1697,13 @@ const courseData = {
         link:
           'https://www.coursera.org/lecture/machine-learning/unsupervised-learning-olRZo',
         pictureName: '3-I19.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Supervised learning',
@@ -1189,6 +1714,13 @@ const courseData = {
         link:
           'https://www.coursera.org/lecture/machine-learning/supervised-learning-1VkCb',
         pictureName: '4-I19.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title:
@@ -1200,6 +1732,13 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=kE5QZ8G_78c',
         pictureName: '5-I19.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Supervised Learning explained',
@@ -1209,6 +1748,14 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=Quh6x4kG6VY',
         pictureName: '6-I19.jpg',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Unsupervised Learning explained',
@@ -1218,6 +1765,14 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=lEfrr0Yr684',
         pictureName: '7-I19.jpg',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: '監督式學習 (Supervised Learning)',
@@ -1227,6 +1782,14 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=qyLTKcUoa8U',
         pictureName: '8-I19.jpg',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: '非監督式學習 (Unsupervised Learning)',
@@ -1237,6 +1800,13 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=wQrghGJvSzs',
         pictureName: '9-I19.jpg',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
     ],
   },
@@ -1253,6 +1823,14 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=nKW8Ndu7Mjw',
         pictureName: '1-I20.jpg',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'About Train, Validation and Test Sets in Machine Learning',
@@ -1263,6 +1841,14 @@ const courseData = {
         link:
           'https://towardsdatascience.com/train-validation-and-test-sets-72cb40cba9e7',
         pictureName: '2-I20.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'What is the Difference Between Test and Validation Datasets?',
@@ -1273,6 +1859,14 @@ const courseData = {
         link:
           'https://machinelearningmastery.com/difference-test-validation-datasets/',
         pictureName: '3-I20.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Cross-Validation in Machine Learning',
@@ -1283,6 +1877,13 @@ const courseData = {
         link:
           'https://towardsdatascience.com/cross-validation-in-machine-learning-72924a69872f',
         pictureName: '4-I20.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title:
@@ -1293,6 +1894,14 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=QupMZFeyETM',
         pictureName: '5-I20.jpg',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
     ],
   },
@@ -1310,6 +1919,14 @@ const courseData = {
         link:
           'https://machinelearningmastery.com/types-of-classification-in-machine-learning/',
         pictureName: '1-I21.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'K-Nearest Neighbor(KNN) Algorithm for Machine Learning',
@@ -1320,6 +1937,13 @@ const courseData = {
         link:
           'https://www.javatpoint.com/k-nearest-neighbor-algorithm-for-machine-learning',
         pictureName: '2-I21.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title:
@@ -1330,6 +1954,13 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=2v430er9hkI',
         pictureName: '3-I21.jpg',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title:
@@ -1340,6 +1971,12 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=RF-ohrwxzDA',
         pictureName: '4-I21.jpg',
+        tags: [
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title:
@@ -1350,6 +1987,12 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=TtKF996oEl8',
         pictureName: '5-I21.jpg',
+        tags: [
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
     ],
   },
@@ -1367,6 +2010,13 @@ const courseData = {
         link:
           'https://medium.com/analytics-vidhya/5-regression-algorithms-you-need-to-know-theory-implementation-37993382122d',
         pictureName: '1-I22.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title:
@@ -1377,6 +2027,14 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=E5RjzSK0fvY',
         pictureName: '2-I22.jpg',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title:
@@ -1388,6 +2046,13 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=OCwZyYH14uw',
         pictureName: '3-I22.jpg',
+        tags: [
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Regularization Part 2: Lasso (L1) Regression',
@@ -1397,6 +2062,13 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=NGf0voTMlcs',
         pictureName: '4-I22.jpg',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Regularization Part 1: Ridge (L2) Regression',
@@ -1406,6 +2078,12 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=Q81RR3yKn30',
         pictureName: '5-I22.jpg',
+        tags: [
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Regularization Part 3: Elastic Net Regression',
@@ -1415,6 +2093,12 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=1dKRdX9bfIo',
         pictureName: '6-I22.jpg',
+        tags: [
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
     ],
   },
@@ -1431,6 +2115,12 @@ const courseData = {
         category: '文章',
         link: 'https://stanford.edu/~cpiech/cs221/handouts/kmeans.html',
         pictureName: '1-I23.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Understanding K-means Clustering in Machine Learning',
@@ -1441,6 +2131,12 @@ const courseData = {
         link:
           'https://towardsdatascience.com/understanding-k-means-clustering-in-machine-learning-6a6e67336aa1',
         pictureName: '2-I23.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title:
@@ -1451,6 +2147,7 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=1XqG0kaJVHY',
         pictureName: '3-I23.jpg',
+        tags: ['教育服務業', '資訊及通訊傳播業', '醫療保健及社會工作服務業'],
       },
       {
         title: 'Gaussian Mixture Modelling (GMM)',
@@ -1461,6 +2158,12 @@ const courseData = {
         link:
           'https://towardsdatascience.com/gaussian-mixture-modelling-gmm-833c88587c7f',
         pictureName: '4-I23.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Gaussian Mixture Models for Clustering',
@@ -1470,6 +2173,7 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=DODphRRL79c',
         pictureName: '5-I23.jpg',
+        tags: ['教育服務業', '資訊及通訊傳播業', '醫療保健及社會工作服務業'],
       },
       {
         title:
@@ -1480,6 +2184,12 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=UhVn2WrzMnI',
         pictureName: '6-I23.jpg',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '醫療保健及社會工作服務業',
+        ],
       },
     ],
   },
@@ -1496,6 +2206,13 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=YRhxdVk_sIs',
         pictureName: '1-I24.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Visualizing Convolutional Filters from a CNN',
@@ -1507,6 +2224,13 @@ const courseData = {
         link:
           'https://www.youtube.com/watch?v=cNBBNAxC8l4&list=PLZbbT5o_s2xq7LwI2y8_QtvuXZedL6tQU&index=20',
         pictureName: '2-I24.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'ML Lecture 21-1: Recurrent Neural Network (Part I)',
@@ -1516,6 +2240,13 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=xCGidAeyS4M',
         pictureName: '3-I24.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'ML Lecture 21-2: Recurrent Neural Network (Part II)',
@@ -1525,6 +2256,13 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=rTqmWlnwz_0',
         pictureName: '4-I24.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title:
@@ -1536,6 +2274,7 @@ const courseData = {
         link:
           'https://www.coursera.org/lecture/ai2/4-7-recurrent-networks-long-short-term-memory-lstm-neural-turing-machine-memory-xCWCE',
         pictureName: '5-I24.png',
+        tags: ['教育服務業', '資訊及通訊傳播業', '醫療保健及社會工作服務業'],
       },
       {
         title: 'Lecture 9 | CNN Architectures',
@@ -1547,6 +2286,12 @@ const courseData = {
         link:
           'https://www.youtube.com/watch?v=DAOcjicFr1Y&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv&index=9',
         pictureName: '6-I24.png',
+        tags: [
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
     ],
   },
@@ -1564,6 +2309,12 @@ const courseData = {
         link:
           'https://www.youtube.com/watch?v=5WoItGTWV54&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv&index=13',
         pictureName: '1-I25.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+        ],
       },
       {
         title: 'Deep Generative Modeling | MIT 6.S191',
@@ -1573,6 +2324,7 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=rZufA635dq4',
         pictureName: '2-I25.png',
+        tags: ['教育服務業', '資訊及通訊傳播業'],
       },
       {
         title: 'GAN Lecture 1 (2018): Introduction',
@@ -1582,6 +2334,7 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=DQNNMiAP5lw',
         pictureName: '3-I25.png',
+        tags: ['製造業', '教育服務業', '資訊及通訊傳播業'],
       },
       {
         title:
@@ -1592,6 +2345,7 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=8L11aMN5KY8',
         pictureName: '4-I25.png',
+        tags: ['教育服務業', '資訊及通訊傳播業', '專業、科學及技術服務業'],
       },
       {
         title: 'generative model vs discriminative model',
@@ -1601,6 +2355,7 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=HHNESCbZqUg',
         pictureName: '5-I25.png',
+        tags: ['教育服務業', '資訊及通訊傳播業'],
       },
     ],
   },
@@ -1617,6 +2372,7 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=eNcZbmyCOXI',
         pictureName: '1-I26.png',
+        tags: ['教育服務業', '資訊及通訊傳播業', '專業、科學及技術服務業'],
       },
       {
         title: 'Policy Iteration',
@@ -1626,6 +2382,7 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=2zD2ooLUv-E',
         pictureName: '2-I26.png',
+        tags: ['教育服務業', '資訊及通訊傳播業', '專業、科學及技術服務業'],
       },
       {
         title: 'Ｍarkov Decision Processes and Solving Finite Problems',
@@ -1636,6 +2393,7 @@ const courseData = {
         link:
           'https://www.youtube.com/watch?v=IL3gVyJMmhg&list=PLkFD6_40KJIwTmSbCv9OVJB3YaO4sFwkX&index=7',
         pictureName: '3-I26.png',
+        tags: ['教育服務業', '資訊及通訊傳播業'],
       },
       {
         title: '5-3 Value iteration and Policy Iteration',
@@ -1647,6 +2405,7 @@ const courseData = {
         link:
           'https://www.coursera.org/lecture/ai2/5-3-value-iteration-and-policy-iteration-jCgsY?authMode=signup&isNewUser=true&redirectTo=%2Flecture%2Fai2%2F5-3-value-iteration-and-policy-iteration-jCgsY',
         pictureName: '4-I26.png',
+        tags: ['教育服務業', '資訊及通訊傳播業', '專業、科學及技術服務業'],
       },
       {
         title:
@@ -1658,6 +2417,7 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=bvRO3BYUl44',
         pictureName: '5-I26.png',
+        tags: ['教育服務業', '資訊及通訊傳播業', '專業、科學及技術服務業'],
       },
     ],
   },
@@ -1674,6 +2434,7 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=uiPhlFrwcw8',
         pictureName: '1-I27.png',
+        tags: ['教育服務業', '資訊及通訊傳播業'],
       },
       {
         title:
@@ -1685,6 +2446,7 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=FhSaHuC0u2M',
         pictureName: '2-I27.png',
+        tags: ['教育服務業', '資訊及通訊傳播業'],
       },
       {
         title: 'Q Learning - Reinforcement Learning - Machine Learning',
@@ -1696,6 +2458,7 @@ const courseData = {
         link:
           'https://www.youtube.com/watch?v=h0IDTNHoR4c&list=PLloZa6L2Dthi-baGngFkImaq3jJEPQm6l&index=15',
         pictureName: '3-I27.png',
+        tags: ['資訊及通訊傳播業'],
       },
       {
         title: '5-4 Q-learning, Learning Policy,Simple GLIE Scheme',
@@ -1707,6 +2470,7 @@ const courseData = {
         link:
           'https://www.coursera.org/lecture/ai2/5-4-q-learning-learning-policy-simple-glie-scheme-j3Zb8',
         pictureName: '4-I27.png',
+        tags: ['資訊及通訊傳播業'],
       },
       {
         title: 'DRL Lecture 6: Actor-Critic',
@@ -1716,6 +2480,7 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=j82QLgfhFiY',
         pictureName: '5-I27.png',
+        tags: ['資訊及通訊傳播業'],
       },
     ],
   },
@@ -1734,6 +2499,14 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=xn6Txs7b6iM',
         pictureName: '1-I28.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Data Visualization with D3.js - Full Tutorial Course',
@@ -1744,6 +2517,13 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=_8V5o2UHG0E',
         pictureName: '2-I28.png',
+        tags: [
+          '製造業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title:
@@ -1754,6 +2534,14 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=a9UrKTVEeZA',
         pictureName: '3-I28.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Intro to Data Visualization with R & ggplot2',
@@ -1764,6 +2552,7 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=49fADBfcDD4',
         pictureName: '4-I28.png',
+        tags: ['資訊及通訊傳播業', '醫療保健及社會工作服務業'],
       },
       {
         title: 'Gephi Tutorial - How to use Gephi for Network Analysis',
@@ -1774,6 +2563,7 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=gcfAT8aMxuQ',
         pictureName: '5-I28.png',
+        tags: ['資訊及通訊傳播業', '醫療保健及社會工作服務業'],
       },
       {
         title: 'Seaborn Tutorial 2020',
@@ -1784,6 +2574,13 @@ const courseData = {
         category: '影片',
         link: 'https://www.youtube.com/watch?v=6GUZXDef2U0',
         pictureName: '6-I28.png',
+        tags: [
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
     ],
   },
@@ -1801,6 +2598,14 @@ const courseData = {
         link:
           'https://www-apr.lip6.fr/~tierny/stuff/teaching/tierny_visualization_introduction.pdf',
         pictureName: '1-I29.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Introduction to Scientific Visualization\n',
@@ -1812,6 +2617,14 @@ const courseData = {
         link:
           'https://www.coursera.org/lecture/data-visualization-science-communication/introduction-to-scientific-visualization-vniPb',
         pictureName: '2-I29.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: '[Day 18] 資料分布的圖表3 - 地圖',
@@ -1821,6 +2634,14 @@ const courseData = {
         category: '文章',
         link: 'https://ithelp.ithome.com.tw/articles/10219441?sc=rss.iron',
         pictureName: '3-I29.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: '[Day 17] 資料分布的圖表2 - 盒鬚圖與熱度圖',
@@ -1830,6 +2651,14 @@ const courseData = {
         category: '文章',
         link: 'https://ithelp.ithome.com.tw/articles/10218426',
         pictureName: '4-I29.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: '[Day 16] 資料分布的圖表1 - 散佈圖與泡泡圖',
@@ -1839,6 +2668,14 @@ const courseData = {
         category: '文章',
         link: 'https://ithelp.ithome.com.tw/articles/10218132',
         pictureName: '5-I29.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
     ],
   },
@@ -1857,6 +2694,13 @@ const courseData = {
         link:
           'https://allaboutdataanalysis.medium.com/%E6%83%B3%E8%A6%81%E6%90%9E%E6%87%82%E8%B3%87%E6%96%99%E8%A6%96%E8%A6%BA%E5%8C%96-%E7%9C%8B%E9%80%99%E4%B8%80%E7%AF%87%E5%B0%B1%E5%A4%A0%E4%BA%86-6983c0c2dfc9',
         pictureName: '1-I30.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'Python教學-用matplotlib來畫條狀圖',
@@ -1867,6 +2711,13 @@ const courseData = {
         link:
           'https://www.youtube.com/watch?v=-NOLzwAUPMY&list=PLy7MS-q4l3xB1OGas1HZWJc7YTBWmGdUT&index=8',
         pictureName: '2-I30.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: '[Day 14] 呈現組成結構的圖表3 - 樹狀結構圖與瀑布圖',
@@ -1877,6 +2728,12 @@ const courseData = {
         category: '文章',
         link: 'https://ithelp.ithome.com.tw/articles/10217105',
         pictureName: '3-I30.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: '資料視覺化Data Visualization：圖表設計',
@@ -1888,6 +2745,13 @@ const courseData = {
         link:
           'https://medium.com/uxeastmeetswest/%E8%B3%87%E6%96%99%E8%A6%96%E8%A6%BA%E5%8C%96data-visualization-%E5%9C%96%E8%A1%A8%E8%A8%AD%E8%A8%88-9ef17943a2d4',
         pictureName: '4-I30.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: '淺談資料視覺化',
@@ -1898,6 +2762,13 @@ const courseData = {
         category: '文章',
         link: 'https://highscope.ch.ntu.edu.tw/wordpress/?p=83689',
         pictureName: '5-I30.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
     ],
   },
@@ -1915,6 +2786,13 @@ const courseData = {
         link:
           'https://www.idashboards.com/blog/2019/04/24/how-to-visualize-exploratory-data-analysis/',
         pictureName: '1-I31.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: '如何溝通資料：互動式圖表及 R 語言',
@@ -1925,6 +2803,13 @@ const courseData = {
         link:
           'https://medium.com/datainpoint/interactive-gapminder-with-r-ea4adeea2830',
         pictureName: '2-I31.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: '如何溝通資料：互動式圖表及 Python',
@@ -1935,6 +2820,14 @@ const courseData = {
         link:
           'https://medium.com/datainpoint/interactive-gapminder-with-python-90f8d604a0a2',
         pictureName: '3-I31.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: '為所有人打造的資料視覺化服務 — PlotDB',
@@ -1945,6 +2838,13 @@ const courseData = {
         link:
           'http://blog.infographics.tw/2016/11/plotdb-the-data-visualization-service/',
         pictureName: '4-I31.png',
+        tags: [
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
       {
         title: 'python_互動式圖表',
@@ -1955,6 +2855,14 @@ const courseData = {
         link:
           'https://medium.com/%E8%AA%AA%E8%AA%AA5%E5%88%86%E9%90%98/python-%E4%BA%92%E5%8B%95%E5%BC%8F%E5%9C%96%E8%A1%A8-59070d80004e',
         pictureName: '5-I31.png',
+        tags: [
+          '製造業',
+          '教育服務業',
+          '金融及保險業',
+          '資訊及通訊傳播業',
+          '專業、科學及技術服務業',
+          '醫療保健及社會工作服務業',
+        ],
       },
     ],
   },
