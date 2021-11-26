@@ -20,6 +20,13 @@ function Home() {
   const history = useHistory();
   return (
     <HomePageContainer scale={graphScale}>
+      <InfoContainer>
+        <Description>
+          本知識地圖分為基礎課程、核心課程、延伸課程與應用課程。
+          <br />
+          若為大數據知識初學者，可從基礎課程開始學習。若已有大數據基礎知識，可從核心課程開始學起。如已有大數據技術研究相關經驗者，則可以從延伸課程或是應用課程開始學習。
+        </Description>
+      </InfoContainer>
       <MapContainer src={courseMap}>
         {courseNodes.map((course) => (
           <Popover key={course.id} trigger="hover">
@@ -98,6 +105,23 @@ const HomePageContainer = styled.div`
   flex-direction: column;
   align-items: center;
   margin-top: 30px;
+`;
+
+const InfoContainer = styled.div`
+  display: flex;
+  width: 1440px;
+  flex-direction: column;
+  background-color: white;
+  margin-left: 1.25rem;
+`;
+
+const Description = styled.p`
+  display: block;
+  letter-spacing: 1px;
+  border-left: 1.5rem solid #6f7e98;
+  padding-left: 1rem;
+  margin-bottom: 3rem;
+  font-size: 1.25rem;
 `;
 
 const MapContainer = styled.div`
