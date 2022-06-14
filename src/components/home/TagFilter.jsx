@@ -29,12 +29,11 @@ function TagFilter() {
   );
 
   const handleClick = (tag) => {
-    setTags((preState) => {
-      if (!preState.includes(tag) && preState.length < 3) {
-        return [...preState, tag];
-      }
-      return preState.filter((e) => e !== tag);
-    });
+    setTags((preState) =>
+      preState.includes(tag)
+        ? preState.filter((e) => e !== tag)
+        : [...preState, tag],
+    );
   };
 
   return (
@@ -49,7 +48,7 @@ function TagFilter() {
         borderRadius="10px"
       >
         <Box mb={4} fontWeight="bold" lineHeight="short" letterSpacing="0.15em">
-          最多可選擇三個標籤：
+          請選擇標籤：
         </Box>
         <Flex mb={3}>
           <Button
@@ -132,11 +131,10 @@ function TagFilter() {
           </Button>
         </Flex>
       </Stack>
-      <Flex>
+      <Flex wrap="wrap" my={10}>
         {tags.sort().map((tag, index) => (
           <Box
             key={tag}
-            my={10}
             fontSize="2xl"
             fontWeight="semibold"
             lineHeight="short"
