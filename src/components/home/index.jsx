@@ -7,7 +7,13 @@ import {
   PopoverContent,
   PopoverHeader,
   PopoverTrigger,
+  Tabs,
+  TabList,
+  TabPanels,
+  TabPanel,
+  Tab as ChakraTab,
 } from '@chakra-ui/react';
+import TagFilter from './TagFilter';
 
 // constant
 import { graphScale } from '../../constants';
@@ -16,83 +22,117 @@ import courseEndpoints from '../../constants/courseEndpoints';
 // assets
 import courseMap from '../../static/BigDataRoadMap.svg';
 
+function Tab(props) {
+  return (
+    <ChakraTab
+      w="6vw"
+      fontSize="md"
+      lineHeight="short"
+      letterSpacing="0.15em"
+      borderBottomWidth="4px"
+      _selected={{
+        fontWeight: 'bold',
+        color: '#324484',
+        borderColor: '#324484',
+      }}
+      // eslint-disable-next-line react/jsx-props-no-spreading
+      {...props}
+    />
+  );
+}
+
 function Home() {
   const history = useHistory();
   return (
     <HomePageContainer scale={graphScale}>
-      <InfoContainer>
-        <Description>
-          本知識地圖分為基礎課程、核心課程、延伸課程與應用課程。
-          <br />
-          若為大數據知識初學者，可從基礎課程開始學習。若已有大數據基礎知識，可從核心課程開始學起。如已有大數據技術研究相關經驗者，則可以從延伸課程或是應用課程開始學習。
-        </Description>
-      </InfoContainer>
-      <MapContainer src={courseMap}>
-        {courseNodes.map((course) => (
-          <Popover key={course.id} trigger="hover">
-            <PopoverTrigger>
-              <CoursePoint
-                top={course.top}
-                left={course.left}
-                color={course.color}
-                onClick={() => {
-                  history.push(`/course/${course.id}`);
-                }}
-              />
-            </PopoverTrigger>
-            <PopoverContent
-              m="30px 0 10px 0"
-              bg="white"
-              border="solid 2px"
-              borderColor={course.color}
-              borderRadius="10px"
-            >
-              <PopoverHeader
-                color="#2f2f2f"
-                fontSize="16px"
-                fontWeight="600"
-                letterSpacing="2px"
-              >
-                {course.text}
-              </PopoverHeader>
-              <PopoverBody>{course.tooltip}</PopoverBody>
-            </PopoverContent>
-          </Popover>
-        ))}
-        {courseEndpoints.map((course) => (
-          <Popover key={course.id} trigger="hover">
-            <PopoverTrigger>
-              <CourseEndpoint
-                top={course.top}
-                left={course.left}
-                color={course.color}
-                onClick={() => {
-                  history.push(`/course/${course.id}`);
-                }}
-              >
-                <p>{course.text}</p>
-              </CourseEndpoint>
-            </PopoverTrigger>
-            <PopoverContent
-              mt="30px"
-              bg="white"
-              border="solid 2px"
-              borderColor={course.color}
-              borderRadius="10px"
-            >
-              <PopoverHeader
-                color="#2f2f2f"
-                fontSize="16px"
-                fontWeight="600"
-                letterSpacing="2px"
-              >
-                {course.text}
-              </PopoverHeader>
-              <PopoverBody>{course.tooltip}</PopoverBody>
-            </PopoverContent>
-          </Popover>
-        ))}
-      </MapContainer>
+      <Tabs size="sm" colorScheme="facebook">
+        <TabList mb={4} w="12vw">
+          <Tab>地圖索引</Tab>
+          <Tab>標籤索引</Tab>
+        </TabList>
+
+        <TabPanels>
+          <TabPanel>
+            <InfoContainer>
+              <Description>
+                本知識地圖分為基礎課程、核心課程、延伸課程與應用課程。
+                <br />
+                若為大數據知識初學者，可從基礎課程開始學習。若已有大數據基礎知識，可從核心課程開始學起。如已有大數據技術研究相關經驗者，則可以從延伸課程或是應用課程開始學習。
+              </Description>
+            </InfoContainer>
+            <MapContainer src={courseMap}>
+              {courseNodes.map((course) => (
+                <Popover key={course.id} trigger="hover">
+                  <PopoverTrigger>
+                    <CoursePoint
+                      top={course.top}
+                      left={course.left}
+                      color={course.color}
+                      onClick={() => {
+                        history.push(`/course/${course.id}`);
+                      }}
+                    />
+                  </PopoverTrigger>
+                  <PopoverContent
+                    m="30px 0 10px 0"
+                    bg="white"
+                    border="solid 2px"
+                    borderColor={course.color}
+                    borderRadius="10px"
+                  >
+                    <PopoverHeader
+                      color="#2f2f2f"
+                      fontSize="16px"
+                      fontWeight="600"
+                      letterSpacing="2px"
+                    >
+                      {course.text}
+                    </PopoverHeader>
+                    <PopoverBody>{course.tooltip}</PopoverBody>
+                  </PopoverContent>
+                </Popover>
+              ))}
+              {courseEndpoints.map((course) => (
+                <Popover key={course.id} trigger="hover">
+                  <PopoverTrigger>
+                    <CourseEndpoint
+                      top={course.top}
+                      left={course.left}
+                      color={course.color}
+                      onClick={() => {
+                        history.push(`/course/${course.id}`);
+                      }}
+                    >
+                      <p>{course.text}</p>
+                    </CourseEndpoint>
+                  </PopoverTrigger>
+                  <PopoverContent
+                    mt="30px"
+                    bg="white"
+                    border="solid 2px"
+                    borderColor={course.color}
+                    borderRadius="10px"
+                  >
+                    <PopoverHeader
+                      color="#2f2f2f"
+                      fontSize="16px"
+                      fontWeight="600"
+                      letterSpacing="2px"
+                    >
+                      {course.text}
+                    </PopoverHeader>
+                    <PopoverBody>{course.tooltip}</PopoverBody>
+                  </PopoverContent>
+                </Popover>
+              ))}
+            </MapContainer>
+          </TabPanel>
+
+          <TabPanel>
+            <TagFilter />
+          </TabPanel>
+        </TabPanels>
+      </Tabs>
     </HomePageContainer>
   );
 }
