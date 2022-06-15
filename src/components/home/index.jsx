@@ -45,7 +45,7 @@ function Home() {
   const history = useHistory();
   return (
     <HomePageContainer scale={graphScale}>
-      <Tabs size="sm" colorScheme="facebook">
+      <Tabs maxW="1440px" size="sm" colorScheme="facebook">
         <TabList mb={4} w="12vw">
           <Tab>地圖索引</Tab>
           <Tab>標籤索引</Tab>
