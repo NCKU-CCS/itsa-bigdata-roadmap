@@ -1,6 +1,8 @@
 import React, { useState, useMemo } from 'react';
 import styled from '@emotion/styled';
-import { Box, Flex, Button as ChakraButton, Badge } from '@chakra-ui/react';
+import {
+  Box, Flex, Button as ChakraButton, Badge,
+} from '@chakra-ui/react';
 import courseData from '../../constants/courseData';
 
 /* eslint-disable react/jsx-props-no-spreading */
@@ -29,11 +31,9 @@ function TagFilter() {
   );
 
   const handleClick = (tag) => {
-    setTags((preState) =>
-      preState.includes(tag)
-        ? preState.filter((e) => e !== tag)
-        : [...preState, tag],
-    );
+    setTags((preState) => (preState.includes(tag)
+      ? preState.filter((e) => e !== tag)
+      : [...preState, tag]));
   };
 
   return (
@@ -147,8 +147,8 @@ function TagFilter() {
       {data.map((course) => {
         const { tags: courseTags } = course;
         if (
-          tags.some((e) => courseTags.includes(e)) ||
-          (tags.includes('綜合領域') && courseTags.length > 4)
+          tags.some((e) => courseTags.includes(e))
+          || (tags.includes('綜合領域') && courseTags.length > 4)
         ) {
           return (
             <CourseCardContainer key={course.title + course.presenter}>
@@ -156,9 +156,7 @@ function TagFilter() {
                 <Row style={{ color: '#000000' }}>
                   <Circle
                     style={{
-                      backgroundColor: `${
-                        course.category === '影片' ? '#64379F' : '#37999F'
-                      }`,
+                      backgroundColor: `${course.category === '影片' ? '#64379F' : '#37999F'}`,
                     }}
                   />
                   {course.category}
